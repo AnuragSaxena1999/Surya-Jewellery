@@ -72,7 +72,7 @@ const Product = () => {
             Rating {product.rating && product.rating.rate}{" "}
             <i className="fa fa-star"></i>
           </p>
-          <h3 className="display-6 fw-bold my-4">${product.price}</h3>
+          <h3 className="display-6 fw-bold my-4">₹{product.price}</h3>
           <p className="lead">{product.description}</p>
           <a href="https://wa.me/+918595666108?text=Hello%20Surya%20Jewellers%2C%20I%20want%20to%20purchase%20an%20Item." target="_blank" className="btn btn-outline-dark px-4 py-2" >Order Now</a>
 
