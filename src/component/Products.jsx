@@ -111,7 +111,7 @@ const Products = () => {
           return (
             <>
               <div className="col-md-3 mb-4">
-                <Link to={`/products/${product.id}`}><div class="card h-100 text-center p-4" key={product.id}>
+                <Link to={`/products/₹{product.id}`}><div class="card h-100 text-center p-4" key={product.id}>
                   <img
                     src={product.image}
                     class="card-img-top img-fluid"
@@ -124,7 +124,7 @@ const Products = () => {
                     </h5>
                     <p class="card-text lead fw-bold">${product.price}</p>
                     <NavLink
-                      to={`/products/${product.id}`}
+                      to={`/products/₹{product.id}`}
                       class="btn btn-outline-dark"
                     >
                       Buy Now
