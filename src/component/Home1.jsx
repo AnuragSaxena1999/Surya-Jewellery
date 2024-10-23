@@ -46,12 +46,12 @@ function Home1() {
 
       <div id='features '>
         <div className="a-container">
-          <Link to="/products/18"><FeatureBox image={featureimage} title='Locket' price='Rs. 1234'/></Link>
+          <Link to="/products/18"><FeatureBox image={featureimage} title='Locket' price='₹ 1234'/></Link>
             
             
-          <Link to="/products/2"><FeatureBox image={featureimage1} title="Men's Chain"  price='Rs.1999' /></Link>
-          <Link to="/products/19"><FeatureBox image={featureimage3} title='Bracelet'  price='Rs.1999'  /></Link>
-          <Link to="/products/17"><FeatureBox image={featureimage2} title="Men's Ring"  price='Rs.1999'  /></Link>
+          <Link to="/products/2"><FeatureBox image={featureimage1} title="Men's Chain"  price='₹ 1999' /></Link>
+          <Link to="/products/19"><FeatureBox image={featureimage3} title='Bracelet'  price='₹ 1999'  /></Link>
+          <Link to="/products/17"><FeatureBox image={featureimage2} title="Men's Ring"  price='₹ 1999'  /></Link>
 
         </div>
         </div>
